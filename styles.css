@@ -259,3 +259,28 @@ button:hover {
     font-size: 1em;
 }
 
+/* Estilos para la sección de reseñas */
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.review {
+    background: rgb(165, 164, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.review h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.review p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
